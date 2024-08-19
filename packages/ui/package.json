@@ -1,0 +1,40 @@
+{
+  "name": "react-sonoma",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "sb": "storybook dev -p 6006",
+    "sb:build": "storybook build",
+    "lint": "eslint --fix",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "clsx": "^1.2.1",
+    "postcss": "^8.4.41",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/addon-onboarding": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/react": "^8.2.9",
+    "@storybook/react-vite": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "@studio-lihe/eslint-config": "workspace:^0.0.0",
+    "@types/react": "18.2.71",
+    "@types/react-dom": "18.2.22",
+    "eslint-plugin-storybook": "^0.6.11",
+    "resolve-tspaths": "^0.8.3",
+    "storybook": "^8.2.9",
+    "ts-loader": "^9.3.1",
+    "typescript": "4.7.4"
+  }
+}
